@@ -765,7 +765,7 @@ SHOULD continue to get processed by the server.
 
 The server MAY send `ERROR` frames if something goes wrong. In this case, it
 MUST then close the connection just after sending the `ERROR` frame. See the
-next section about [connection lingering](#Connection_Lingering).
+section about [connection lingering](#Connection_Lingering).
 
 The `ERROR` frame SHOULD contain a `message` header with a short description
 of the error, and the body MAY contain more detailed information (or MAY be
